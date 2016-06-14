@@ -37,4 +37,4 @@ def get_gpu_temp():
 while True:
     upload_temp("cpu", get_cpu_temp())
     upload_temp("gpu", get_gpu_temp())
-    sleep(20)
+    sleep(60)
